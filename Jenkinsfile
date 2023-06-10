@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Code Analysis') {
             steps {
-                echo 'Publishing..'
+                echo 'Analyzing code..'
             }
         }
         stage('Publish') {
